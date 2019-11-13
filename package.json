@@ -1,0 +1,22 @@
+{
+  "name": "ecs-test",
+  "version": "0.1.0",
+  "description": "test entity-component-system architecture for game development",
+  "main": "src/app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "CC-BY-SA"
+}
