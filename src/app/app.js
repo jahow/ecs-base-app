@@ -1,6 +1,6 @@
 import RenderSystem from '../system/system.render';
 
-export default class App {
+class App {
   constructor() {
     /**
      * @type {Entity[]}
@@ -31,3 +31,6 @@ export default class App {
     this.entities.push(entity);
   }
 }
+
+const APP = new App();
+export default APP;
